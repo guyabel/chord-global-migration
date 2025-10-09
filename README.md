@@ -1,7 +1,8 @@
 Code to create chord diagrams of global migration patterns, including: 
 
-* `plot-ims2024/time` - UN DESA IMS2024 data over time, with sectors axis fixed to the maximum turnover during period.
-* `plot-ims2024/sex` - UN DESA IMS2024 data in 2024 for females and males, with sectors axis fixed to maximum turnover over the sexes. 
+* `plot-ims2024/time` - UN DESA IMS2024 data over time, with the sector axes fixed to the maximum turnover during the period.
+* `plot-ims2024/sex` - UN DESA IMS2024 data in 2024 for females and males, with the sector axes fixed to the maximum migration volumes over the sexes.
+* `plot-ims2024/pop` - UN DESA IMS2024 data in 2024 for females and males, with sector axes alternating between migration and population totals. 
 
 All plots use the [`mig_chord()`](https://guyabel.github.io/migest/reference/mig_chord.html) R function as their basis. 
 See [https://guyabel.com/post/global-migrant-chord-diagrams/](https://guyabel.com/post/global-migrant-chord-diagrams/) for more plots.

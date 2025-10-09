@@ -2,7 +2,6 @@ library(tidyverse)
 library(countrycode)
 library(migest)
 library(tweenr)
-library(circlize)
 library(animation)
 library(magick)
 
@@ -215,8 +214,7 @@ Data from United Nations Department of Economic and Social Affairs, Population D
         gravity = "southwest",  location = "+10+10"
       ) %>%
       image_annotate(
-        text =
-          "Plot by Guy Abel | guyabel.com",
+        text = "Plot by Guy Abel | guyabel.com",
         size = 8, color = "grey30", 
         gravity = "northwest",  location = "+10+90"
       ) %>%
